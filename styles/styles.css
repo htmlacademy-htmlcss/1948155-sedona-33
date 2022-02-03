@@ -26,46 +26,50 @@ body {
 
   /* Pages */
 .page-header {
+    font-family: "PT Sans", sans-serif;
     color: #000000;
     background-color: #ffffff;
 }
 
 
 .main-index {
-  color: #000000;
-  background-color: #ffffff;
+    font-family: "PT Sans", sans-serif;
+    color: #000000;
+    background-color: #ffffff;
 }
 
 
 .welcome {
-  background-image: url("../images/index-bg.jpg");
-  background-size: 100% auto;
-  background-repeat: no-repeat;
-  text-align: center;
+    font-family: "PT Sans", sans-serif;
+    background-image: url("../images/index-bg.jpg");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    text-align: center;
 }
 
 
 .interest-description {
-  font-family: PT Sans;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 22px;
-  line-height: 26px;
-  color: #333333;
+    font-family: "PT Sans", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+    color: #333333;
 }
 
 
 .subscription-description {
-  font-family: PT Sans;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 22px;
-  line-height: 26px;
+    font-family: "PT Sans", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
 }
 
 
 /* link & button */
 .navigation-link {
+    font-family: "PT Sans", sans-serif;
     font-size: 20px;
     line-height: 26px;
     color: #000000;
@@ -76,8 +80,8 @@ body {
   }
 
 .interest-button {
+    font-family: "PT Sans", sans-serif;
     background: #756257;
-    font-family: PT Sans;
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
@@ -89,7 +93,7 @@ body {
 
 
 .footer-contacts a{
-    font-family: PT Sans;
+    font-family: "PT Sans", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 40px;
@@ -100,7 +104,7 @@ body {
 }
 
 .navigation-button {
-    font-family: PT Sans;
+    font-family: "PT Sans", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
@@ -112,7 +116,7 @@ body {
 }
 
 .subscription-button {
-    font-family: PT Sans;
+    font-family: "PT Sans", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
@@ -122,7 +126,7 @@ body {
 }
 
 .breadcrumbs-link {
-    font-family: PT Sans;
+    font-family: "PT Sans", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -132,7 +136,7 @@ body {
 
 
 .filter-button {
-    font-family: PT Sans;
+    font-family: "PT Sans", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
@@ -146,8 +150,8 @@ body {
 
 .reset-filter-button {
     background-color: transparent;
-    border:0px;
-    font-family: PT Sans;
+    border:0;
+    font-family: "PT Sans", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -157,7 +161,7 @@ body {
 }
 
 .select-control a {
-    font-family: PT Sans;
+    font-family: "PT Sans", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -167,12 +171,13 @@ body {
 }
 
 .hotel-card a {
+    font-family: "PT Sans", sans-serif;
     text-decoration: none;
 }
 
 
 .pagination-more {
-    font-family: PT Sans;
+    font-family: "PT Sans", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
@@ -185,7 +190,7 @@ body {
 
 
 .pagination-link {
-    font-family: PT Sans;
+    font-family: "PT Sans", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
@@ -198,30 +203,36 @@ body {
 
 
 .pagination-item a {
+    font-family: "PT Sans", sans-serif;
     text-decoration: none;
 }
 
 
 .pagination-item span {
+    font-family: "PT Sans", sans-serif;
     text-decoration: none;
 }
 
 
 .pagination-current {
+    font-family: "PT Sans", sans-serif;
     background: #F2F2F2;
 }
 /* List */
 .advantages-list {
+    font-family: "PT Sans", sans-serif;
     text-align: center;
 }
 
 
 .interest {
+    font-family: "PT Sans", sans-serif;
     text-align: center;
 }
 
 
 .subscription {
+    font-family: "PT Sans", sans-serif;
     background-image: url("../images/subscription-bg.jpg");
     background-size: 100% auto;
     background-repeat: no-repeat;
@@ -231,14 +242,15 @@ body {
 
 
 .catalog-sorting {
-  background-image: url("../images/catalog/catalog-bg.jpg");
+    font-family: "PT Sans", sans-serif;
+    background-image: url("../images/catalog/catalog-bg.jpg");
     background-size: 100% auto;
     background-repeat: no-repeat;
     color:#ffffff;
 }
 
 .found-hotels {
-    font-family: PT Sans;
+    font-family: "PT Sans", sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 30px;
@@ -249,19 +261,19 @@ body {
 
 /* Title */
 .advantages-title {
-    font-family: PT Sans;
+    font-family: "PT Sans", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
     line-height: 28px;
     text-align: center;
     text-transform: uppercase;
-    color: interhit;
+    color: inherit;
   }
 
 
 .slogan {
-    font-family: PT Sans;
+    font-family: "PT Sans", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 30px;
@@ -272,7 +284,7 @@ body {
 }
 
 .advantages-introduction {
-    font-family: PT Sans;
+    font-family: "PT Sans", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 22px;
@@ -284,7 +296,7 @@ body {
 
 
 .interest-title {
-    font-family: PT Sans;
+    font-family: "PT Sans", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 30px;
@@ -295,7 +307,7 @@ body {
 
 
 .subscription-title {
-    font-family: PT Sans;
+    font-family: "PT Sans", sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 30px;
@@ -306,7 +318,7 @@ body {
 
 
 .catalog-sorting-title {
-    font-family: PT Sans;
+    font-family: "PT Sans", sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 60px;
@@ -315,7 +327,7 @@ body {
 }
 
 .catalog-filter-title {
-    font-family: PT Sans;
+    font-family: "PT Sans", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
@@ -324,7 +336,7 @@ body {
 }
 
 .hotel-card-title {
-    font-family: PT Sans;
+    font-family: "PT Sans", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
@@ -336,7 +348,7 @@ body {
 
 /* items */
 .advantages-item {
-    font-family: PT Sans;
+    font-family: "PT Sans", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -346,7 +358,7 @@ body {
 
 
 .catalog-filter-item {
-    font-family: PT Sans;
+    font-family: "PT Sans", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -356,7 +368,7 @@ body {
 
 
 .hotel-card-type {
-    font-family: PT Sans;
+    font-family: "PT Sans", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -366,7 +378,7 @@ body {
 
 
 .hotel-card-type {
-    font-family: PT Sans;
+    font-family: "PT Sans", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -376,7 +388,7 @@ body {
 
 
 .hotel-card-price {
-    font-family: PT Sans;
+    font-family: "PT Sans", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -386,8 +398,8 @@ body {
 
 
 .hotel-card-more {
+    font-family: "PT Sans", sans-serif;
     background-color: #756257;
-    font-family: PT Sans;
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
@@ -399,7 +411,7 @@ body {
 
 
 .hotel-card-in-favorites {
-    font-family: PT Sans;
+    font-family: "PT Sans", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
@@ -411,8 +423,8 @@ body {
 
 
 .hotel-rating {
+    font-family: "PT Sans", sans-serif;
     background-color: #F2F2F2;
-    font-family: PT Sans;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -424,7 +436,7 @@ body {
 
 
 .hotel-on-page {
-    font-family: PT Sans;
+    font-family: "PT Sans", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -433,6 +445,7 @@ body {
 }
 /* Backgrounds */
 .bg-cold-light {
+    font-family: "PT Sans", sans-serif;
     background-color: #83b3d3;
     color: white;
     text-transform: uppercase;
@@ -440,18 +453,21 @@ body {
 
 
 .bg-cold-light-012 {
+    font-family: "PT Sans", sans-serif;
     background-color: rgba(131, 179, 211, 0.12);
     color:black;
 }
 
 
 .bg-cold-light-02 {
+    font-family: "PT Sans", sans-serif;
     background-color: rgba(131, 179, 211, 0.2);
     color:black;
 }
 
 
 .bg-none {
+    font-family: "PT Sans", sans-serif;
     background-color: #ffffff;
     background-image: none;
     color:black;

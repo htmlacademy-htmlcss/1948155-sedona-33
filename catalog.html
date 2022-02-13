@@ -11,84 +11,87 @@
 </head>
 
 <body>
-  <header class="page-header">
-    <nav class="navigation">
-      <a
-      class="navigation-logo"
-      href="index.html"
-      >
-        <img
+  <div class="page-container">
+    <header class="page-header">
+      <nav class="navigation">
+        <a
         class="navigation-logo"
-        src="images/header/logo.svg"
-        width="139"
-        height="70"
-        alt="Логотип Седона"
+        href="index.html"
         >
-      </a>
-      <ul class="navigation-list">
-        <li class="navigation-item">
-          <a
-          class="navigation-link"
-          href="index.html"
-          >Главная</a>
-        </li>
-        <li class="navigation-item">
-          <a
-          class="navigation-link"
-          href="about.html"
-          >О Седоне</a>
-        </li>
-        <li class="navigation-item">
-          <a
-          class="navigation-link navigation-link-active"
-          href="catalog.html"
-          >Гостиницы</a>
-        </li>
-      </ul>
-      <ul class="navigation-list navigation-user">
-        <li class="navigation-item">
-          <a
-          class="navigation-link"
-          href="#"
+          <img
+          class="navigation-logo"
+          src="images/header/logo.svg"
+          width="139"
+          height="70"
+          alt="Логотип Седона"
           >
-            <img
-            class="navigation-icon"
-            src="images/header/Search.svg"
-            width="42"
-            height="66"
-            alt="Иконка поиска"
+        </a>
+        <div class="navmenu">
+        <ul class="navigation-list">
+          <li class="navigation-item navigation-item-active">
+            <a
+            class="navigation-link"
+            href="index.html"
+            >Главная</a>
+          </li>
+          <li class="navigation-item">
+            <a
+            class="navigation-link"
+            href="about.html"
+            >О Седоне</a>
+          </li>
+          <li class="navigation-item">
+            <a
+            class="navigation-link"
+            href="catalog.html"
+            >Гостиницы</a>
+          </li>
+        </ul>
+        <ul class="navigation-user">
+          <li class="navigation-item">
+            <a
+            class="navigation-link"
+            href="#"
             >
-            <span class="visually-hidden">
-              Поиск
-            </span>
-          </a>
-        </li>
-        <li class="navigation-item">
-          <a
-          class="navigation-link"
-          href="#"
-          >
-            <img
-            class="navigation-icon"
-            src="images/header/Favorites.svg"
-            width="42"
-            height="66"
-            alt="Иконка избранного"
+              <img
+              class="navigation-icon"
+              src="images/header/Search.svg"
+              width="42"
+              height="66"
+              alt="Иконка поиска"
+              >
+              <span class="visually-hidden">
+                Поиск
+              </span>
+            </a>
+          </li>
+          <li class="navigation-item">
+            <a
+            class="navigation-link"
+            href="#"
             >
-            <span class="visually-hidden">
-              Избранное
-            </span>
-          </a>
-        </li>
-        <li class="navigation-item">
-          <button
-          class="navigation-button"
-          type="button"
-          >Хочу сюда</button>
-        </li>
-      </ul>
-    </nav>
-  </header>
+              <img
+              class="navigation-icon"
+              src="images/header/Favorites.svg"
+              width="42"
+              height="66"
+              alt="Иконка избранного"
+              >
+              <span class="visually-hidden">
+                Избранное
+              </span>
+            </a>
+          </li>
+          <li class="navigation-item">
+            <button
+            class="navigation-button"
+            type="button"
+            >Хочу сюда</button>
+          </li>
+        </ul>
+      </div>
+      </nav>
+    </header>
 
   <main class="main-inner">
     <section class="catalog-sorting">
@@ -488,6 +491,7 @@
   </main>
 
   <footer class="page-footer">
+    <div class="footer">
     <section class="footer-social">
       <h2 class="visually-hidden">Социальные сети</h2>
       <ul class="footer-social-list">
@@ -525,9 +529,9 @@
           href="#"
           >
             <img
-            src="images/footer/social-facebook.svg"
-            width="10"
-            height="18"
+            src="images/footer/social-youtube.svg"
+            width="20"
+            height="16"
             alt="Иконка Youtube"
             >
             <span class="visually-hidden">Youtube</span>
@@ -561,7 +565,9 @@
         >
       </a>
     </section>
+  </div>
   </footer>
+ </div>
 </body>
 
 </html>

@@ -51,7 +51,7 @@ body {
 
 .page-footer {
   width: 1200px;
-  height: 120px;
+  min-height: 120px;
   margin: 0 auto;
   padding: 0;
   background: white;
@@ -64,7 +64,7 @@ body {
   flex-wrap: wrap;
   align-items: center;
   width: 1056px;
-  height: 120px;
+  min-height: 120px;
   margin: 0 auto;
 }
 
@@ -90,7 +90,7 @@ body {
   display:flex;
   justify-content: space-around;
   width: 345px;
-  height: 66px;
+  min-height: 66px;
   margin: 0;
   padding: 0;
   border: 0;
@@ -101,7 +101,7 @@ body {
   display:flex;
   justify-content: space-between;
   width: 264px;
-  height: 66px;
+  min-height: 66px;
   margin: 0;
   padding: 0;
   border: 0;
@@ -133,7 +133,7 @@ body {
   color: #000000;
   background-color: #ffffff;
   width:1200px;
-  height: 65px;
+  min-height: 65px;
   margin:0 auto;
   padding:0;
   display:flex;
@@ -154,7 +154,7 @@ body {
 
 .pagination-more {
   width: 620px;
-  height: 60px;
+  min-height: 60px;
   border-radius: 4px;
   margin: 0;
   margin: 30px 290px;
@@ -167,14 +167,14 @@ body {
   background-repeat: no-repeat;
   text-align: center;
   width: 1200px;
-  height: 485px;
+  min-height: 485px;
 }
 
 
 .interest {
   font-family: "PT Sans", sans-serif;
   width: 1200px;
-  height: 417px;
+  min-height: 417px;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -485,7 +485,7 @@ body {
   text-transform: uppercase;
   color: #FFFFFF;
   width: 55px;
-  height: 55px;
+  min-height: 55px;
   padding-top: 16px;
   box-sizing: border-box;
   margin-right: 8px;
@@ -526,7 +526,7 @@ body {
   margin: 0;
   display: grid;
   width: 1200px;
-  height: 1535px;
+  min-height: 1535px;
   grid-template-columns: 400px 400px 400px;
   list-style-type: none;
   gap: 0px;
@@ -541,7 +541,7 @@ body {
   text-align: center;
   color:#ffffff;
   width: 1200px;
-  height: 411px;
+  min-height: 411px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;

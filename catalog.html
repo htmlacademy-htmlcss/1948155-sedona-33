@@ -97,7 +97,7 @@
     <section class="catalog-sorting">
       <h1 class="catalog-sorting-title">Гостиницы Седоны</h1>
       <ul class="breadcrumbs">
-        <li class="breadcrumbs-item">
+        <li class="breadcrumbs-item-home">
           <a
           class="breadcrumbs-link"
           href="index.html"
@@ -110,7 +110,7 @@
           alt="Иконка главной"
           ></a>
         </li>
-        <li class="breadcrumbs-item">
+        <li class="breadcrumbs-item-arrow">
         <img
           class="breadcrumbs-icon"
           src="images/catalog/nav-link.svg"
@@ -119,7 +119,7 @@
           alt="Иконка главной"
           >
         </li>
-        <li class="breadcrumbs-item">
+        <li class="breadcrumbs-item-catalog">
           <a class="breadcrumbs-link">Гостиницы</a>
         </li>
       </ul>
@@ -285,7 +285,7 @@
       <ul class="hotels-list">
         <li class="hotel-card">
           <a
-          class="hotel-card-link"
+          class="hotel-card-link-photo"
           href="hotels.html"
           >
             <img
@@ -294,15 +294,20 @@
             width="300"
             height="206"
             alt="Фото отеля Amara Resort & Spa"
-            >
-            <h3 class="hotel-card-title">Amara Resort & Spa</h3>
+            ></a>
+            <a
+          class="hotel-card-link-title"
+          href="#"
+          ><h3 class="hotel-card-title">Amara Resort & Spa</h3>
           </a>
           <span class="hotel-card-type">Гостиница</span>
+          <p class="hotel-card-space"></p>
           <span class="hotel-card-price">От 4000 ₽</span>
           <a
           class="hotel-card-more button"
           href="#"
           >Подробнее</a>
+          <p></p>
           <button
           class="hotel-card-in-favorites bg-cold-light"
           type="button"
@@ -318,7 +323,7 @@
         </li>
         <li class="hotel-card">
           <a
-          class="hotel-card-link"
+          class="hotel-card-link-photo"
           href="hotels.html"
           >
             <img
@@ -327,15 +332,20 @@
             width="300"
             height="206"
             alt="Фото отеля Desert Quail Inn"
-            >
+            ></a>
+            <a
+            class="hotel-card-link-title"
+            href="#">
             <h3 class="hotel-card-title">Desert Quail Inn</h3>
           </a>
           <span class="hotel-card-type">Гостиница</span>
+          <p class="hotel-card-space"></p>
           <span class="hotel-card-price">От 3000 ₽</span>
           <a
           class="hotel-card-more button"
           href="#"
           >Подробнее</a>
+          <p></p>
           <button
           class="hotel-card-in-favorites bg-cold-light"
           type="button"
@@ -351,7 +361,7 @@
         </li>
         <li class="hotel-card">
           <a
-          class="hotel-card-link"
+          class="hotel-card-link-photo"
           href="hotels.html"
           >
             <img
@@ -360,19 +370,24 @@
             width="300"
             height="206"
             alt="Фото отеля Villas at Poco Diablo"
-            >
+            ></a>
+            <a
+            class="hotel-card-link-title"
+            href="#">
             <h3 class="hotel-card-title">Villas at Poco Diablo</h3>
           </a>
           <span class="hotel-card-type">Гостиница</span>
+          <p class="hotel-card-space"></p>
           <span class="hotel-card-price">От 2000 ₽</span>
           <a
           class="hotel-card-more button"
           href="#"
           >Подробнее</a>
+          <p></p>
           <button
-          class="hotel-card-in-favorites bg-cold-light"
+          class="hotel-card-in-favorites bg-green"
           type="button"
-          >В избранное</button>
+          >В избранном</button>
           <img
           class="stars-of-rating"
           src="images/catalog/star.svg"
@@ -384,7 +399,7 @@
         </li>
         <li class="hotel-card">
           <a
-          class="hotel-card-link"
+          class="hotel-card-link-photo"
           href="hotels.html"
           >
             <img
@@ -393,15 +408,20 @@
             width="300"
             height="206"
             alt="Фото отеля GreenTree Inn"
-            >
+            ></a>
+            <a
+            class="hotel-card-link-title"
+            href="#">
             <h3 class="hotel-card-title">GreenTree Inn</h3>
           </a>
           <span class="hotel-card-type">Гостиница</span>
+          <p class="hotel-card-space"></p>
           <span class="hotel-card-price">От 3000 ₽</span>
           <a
           class="hotel-card-more button"
           href="#"
           >Подробнее</a>
+          <p></p>
           <button
           class="hotel-card-in-favorites bg-cold-light"
           type="button"
@@ -417,12 +437,12 @@
         </li>
       </ul>
     </section>
-      
+    <div class="pagination-more">
     <button
-      class="bg-cold-light pagination-more"
+      class="bg-cold-light pagination-more-button"
       type="button"
-      >Загрузить еще</button>
-
+      >Загрузить ещё</button>
+    </div>
     <div class="pagination-all">
       <ul class="pagination">
         <li class="pagination-item">
@@ -476,14 +496,14 @@
 
 
     <section class="subscription bg-none">
-      <h2 class="subscription-title bg-none">Подпишитесь на рассылку</h2>
+      <h2 class="subscription-title bg-none-title">Подпишитесь на рассылку</h2>
       <p class="subscription-description">Только полезная информация и никакого спама, <br> честное бойскаутское!</p>
       <form
       class="subscription-form"
       action="https://echo.htmlacademy.ru/"
       method="post"
       >
-        <p class="subscription-form-p">
+        <p class="subscription-form-p bg-none-form">
           <label
           for="subscription-form-email"
           class="visually-hidden"

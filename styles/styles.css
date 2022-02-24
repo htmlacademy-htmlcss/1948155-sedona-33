@@ -825,7 +825,7 @@ body {
   width: 143.5px;
   height: 48px;
   background: transparent;
-  font-family: "PT Sans", "Arial", sans-serif;
+  font-family: "PT Sans", sans-serif;
   font-size: 18px;
   line-height: 1.293;
   color: #ffffff;
@@ -841,7 +841,7 @@ body {
   height: 48px;
   border-left: 0;
   background: transparent;
-  font-family: "PT Sans", "Arial", sans-serif;
+  font-family: "PT Sans", sans-serif;
   font-size: 18px;
   line-height: 1.293;
   color: #ffffff;
@@ -907,7 +907,7 @@ body {
 }
 
 .select-option {
-  font-family: PT Sans;
+  font-family: "PT Sans", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -988,7 +988,7 @@ body {
 }
 
 .select-control {
-  font-family: PT Sans;
+  font-family: "PT Sans", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;

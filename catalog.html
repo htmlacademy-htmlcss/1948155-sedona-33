@@ -5,6 +5,16 @@
   <meta charset="utf-8">
   <title>Седона</title>
   <link
+  rel="icon"
+  href="favicon.ico"
+  >
+  <link
+  rel="icon"
+  type="image/png"
+  sizes="32x32"
+  href="images/favicon.png"
+  >
+  <link
   rel="stylesheet"
   href="styles/styles.css"
   >
@@ -20,7 +30,7 @@
         >
           <img
           class="navigation-logo-img"
-          src="images/header/logo.svg"
+          src="images/logo.svg"
           width="139"
           height="70"
           alt="Логотип Седона"
@@ -53,15 +63,10 @@
             class="navigation-link"
             href="#"
             >
-              <img
-              class="navigation-icon"
-              src="images/header/Search.svg"
-              width="42"
-              height="66"
-              alt="Иконка поиска"
-              >
               <span class="visually-hidden">
                 Поиск
+              </span>
+              <span class="search">
               </span>
             </a>
           </li>
@@ -70,15 +75,10 @@
             class="navigation-link"
             href="#"
             >
-              <img
-              class="navigation-icon"
-              src="images/header/Favorites.svg"
-              width="42"
-              height="66"
-              alt="Иконка избранного"
-              >
               <span class="visually-hidden">
                 Избранное
+              </span>
+              <span class="favorites">
               </span>
             </a>
           </li>
@@ -136,32 +136,35 @@
             <li class="catalog-filter-item">
               <label class="control">
                 <input
-                class="control-input"
+                class="control_input visually-hidden"
                 type="checkbox"
                 name="swimming pool"
                 checked
                 >
+                <span class="checkbox"></span>
                 Бассейн
               </label>
             </li>
             <li class="catalog-filter-item">
               <label class="control">
                 <input
-                class="control-input"
+                class="control_input visually-hidden"
                 type="checkbox"
                 name="parking"
                 checked
                 >
+                <span class="checkbox"></span>
                 Парковка
               </label>
             </li>
             <li class="catalog-filter-item">
               <label class="control">
                 <input
-                class="control-input"
+                class="control_input visually-hidden"
                 type="checkbox"
                 name="wi-fi"
                 >
+                <span class="checkbox"></span>
                 Wi-Fi
               </label>
             </li>
@@ -174,34 +177,37 @@
             <li class="catalog-filter-item">
               <label class="control">
                 <input
-                class="control-input"
+                class="control_input visually-hidden"
                 type="radio"
                 name="type-of-housing"
                 value="hotel"
                 checked
                 >
+                <span class="radio"></span>
                 Гостиница
               </label>
             </li>
             <li class="catalog-filter-item">
               <label class="control">
                 <input
-                class="control-input"
+                class="control_input visually-hidden"
                 type="radio"
                 name="type-of-housing"
                 value="motel"
                 >
+                <span class="radio"></span>
                 Мотель
               </label>
             </li>
             <li class="catalog-filter-item">
               <label class="control">
                 <input
-                class="control-input"
+                class="control_input visually-hidden"
                 type="radio"
                 name="type-of-housing"
                 value="apartments"
                 >
+                <span class="radio"></span>
                 Апартаменты
               </label>
             </li>
@@ -209,9 +215,46 @@
         </fieldset>
         <fieldset class="catalog-filter-group price">
           <legend class="catalog-filter-title">Стоимость, ₽:</legend>
-          <ul class="catalog-filter-list">
-            <li class="catalog-filter-item"></li>
-          </ul>
+          <div class="range-value-box">
+            <div class="value-min-box">
+             <label
+             class="visually-hidden"
+             for="min-price"
+             >Введите минимальную стоимость.</label>
+             <input
+             class="range-value-min"
+             id="min-price"
+             type="number"
+             value="0"
+             >
+             <span
+             class="value-min"
+             >от</span>
+           </div>
+           <label
+           class="visually-hidden"
+           for="max-price"
+           >Введите максимальную стоимость.</label>
+           <div class="value-max-box">
+             <input
+             class="range-value-max"
+             id="max-price"
+             type="number"
+             value="9000"
+             >
+             <span class="value-max">до</span>
+           </div>
+          </div>
+          <div class="range">
+          <div class="range-bar">
+            <button class="range-toggle toggle-min">
+              <span class="visually-hidden">Изменить минимальную цену.</span>
+            </button>
+            <button class="range-toggle toggle-max">
+              <span class="visually-hidden">Изменить максимальную цену.</span>
+            </button>
+          </div>
+          </div>
         </fieldset>
 
        <div class="filter-buttons">
@@ -314,8 +357,8 @@
           >В избранное</button>
           <img
           class="stars-of-rating"
-          src="images/catalog/star.svg"
-          width="18"
+          src="images/catalog/four-stars.svg"
+          width="91"
           height="17"
           alt="Рейтинг отеля"
           >
@@ -352,8 +395,8 @@
           >В избранное</button>
           <img
           class="stars-of-rating"
-          src="images/catalog/star.svg"
-          width="18"
+          src="images/catalog/three-stars.svg"
+          width="68"
           height="17"
           alt="Рейтинг отеля"
           >
@@ -390,8 +433,8 @@
           >В избранном</button>
           <img
           class="stars-of-rating"
-          src="images/catalog/star.svg"
-          width="18"
+          src="images/catalog/two-stars.svg"
+          width="43"
           height="17"
           alt="Рейтинг отеля"
           >
@@ -428,8 +471,8 @@
           >В избранное</button>
           <img
           class="stars-of-rating"
-          src="images/catalog/star.svg"
-          width="18"
+          src="images/catalog/two-stars.svg"
+          width="43"
           height="17"
           alt="Рейтинг отеля"
           >
@@ -514,7 +557,6 @@
           id="subscription-form-email"
           name="subscription-email"
           placeholder="Ваш e-mail"
-          required
           >
           <button
           class="bg-cold-light subscription-button"
@@ -532,43 +574,28 @@
         <li class="footer-social-item-twitter">
           <a
           class="button"
-          href="#"
+          href="https://twitter.com/htmlacademy_ru"
           >
-            <img
-            src="images/footer/social-twitter.svg"
-            width="18"
-            height="15"
-            alt="Иконка Twitter"
-            >
-            <span class="visually-hidden">Twitter</span>
+          <span class="visually-hidden">Twitter</span>
+          <span class="twitter"></span>
           </a>
         </li>
         <li class="footer-social-item-facebook">
           <a
           class="button"
-          href="#"
+          href="https://www.facebook.com/htmlacademy"
           >
-            <img
-            src="images/footer/social-facebook.svg"
-            width="10"
-            height="18"
-            alt="Иконка Facebook"
-            >
-            <span class="visually-hidden">Facebook</span>
+          <span class="visually-hidden">Facebook</span>
+          <span class="facebook"></span>
           </a>
         </li>
         <li class="footer-social-item-youtube">
           <a
           class="button"
-          href="#"
+          href="https://www.youtube.com/user/htmlacademyru"
           >
-            <img
-            src="images/footer/social-youtube.svg"
-            width="20"
-            height="16"
-            alt="Иконка Youtube"
-            >
             <span class="visually-hidden">Youtube</span>
+            <span class="youtube"></span>
           </a>
         </li>
       </ul>
@@ -590,18 +617,11 @@
       class="htmlacademy-link"
       href="https://htmlacademy.ru"
       >
-        <img
-        class="htmlacademy-link-logo"
-        src="images/footer/logo_htmlacademy.svg"
-        width="115"
-        height="34"
-        alt="Логотип HTML ACADEMY"
-        >
+      <span class="htmlacademy"></span>
       </a>
     </section>
   </div>
   </footer>
  </div>
 </body>
-
 </html>

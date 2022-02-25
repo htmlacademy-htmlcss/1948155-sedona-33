@@ -62,7 +62,6 @@ body {
 .catalog-filter-list,
 .catalog-filter-group,
 .catalog-filter-title,
-.catalog-filter-item
 .pagination-all,
 .advantages-list,
 .subscription-form-p,
@@ -73,24 +72,15 @@ body {
 .advantages-description-cold-light,
 .advantages-number,
 .advantages-description,
-.footer-contacts
-.hotel-card-link
-.hotel-card-link-title
-.hotel-card-title
-.hotel-card-type
-.hotel-card-price
-.hotel-card-space
-.sorting
-.found-hotels
+.footer-contacts,
+.hotel-card-type,
 .hotel-card-link-photo {
   margin: 0;
   padding: 0;
 }
 
-.hotel-card-title
-.catalog-sorting-title
-.breadcrumbs
-.found-hotels {
+.hotel-card-title,
+.catalog-sorting-title {
   margin-block-start: 0;
   margin-block-end: 0;
 }
@@ -2046,7 +2036,7 @@ body {
   outline: 3px solid #83b3d3;
 }
 
-.chotel-card-link-photo:active {
+.hotel-card-link-photo:active {
   opacity: 0.3;
 }
 
